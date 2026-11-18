@@ -1,0 +1,19 @@
+{
+  "servicio": "Internet dedicado simetrico 200 Mbps",
+  "periodo": "2026-09",
+  "minutos_periodo": 43200,
+  "cobertura_minima": 0.9,
+  "cargo_mensual": 1200000,
+  "tope_credito": 0.5,
+  "metricas": {
+    "disponibilidad": {"operador": ">=", "objetivo": 99.9, "unidad": "%"},
+    "latencia": {"operador": "<=", "objetivo": 30, "unidad": "ms", "estadistico": "promedio"},
+    "jitter": {"operador": "<=", "objetivo": 10, "unidad": "ms", "estadistico": "promedio_ponderado"},
+    "perdida": {"operador": "<=", "objetivo": 0.5, "unidad": "%"},
+    "throughput": {"operador": ">=", "objetivo": 180, "unidad": "Mbps", "estadistico": "promedio"},
+    "respuesta": {"operador": "<=", "objetivo": 60, "unidad": "min"},
+    "restauracion": {"operador": "<=", "objetivo": 240, "unidad": "min"}},
+  "minimo_pruebas": 4,
+  "creditos_disponibilidad": [[99.5, 99.9, 0.1], [99.0, 99.5, 0.25], [0, 99.0, 0.5]],
+  "credito_otras": 0.05
+}

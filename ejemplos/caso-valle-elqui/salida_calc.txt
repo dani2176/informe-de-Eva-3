@@ -1,0 +1,25 @@
+CALCULADORA SLA | Valle de Elqui | 2026-09
+Periodo: 43200 min | Exclusiones consideradas disponibles
+disponibilidad: 99.62963 %
+  Objetivo >= 99.9 % | NO CUMPLE
+latencia: 27.40000 ms
+  Objetivo <= 30 ms | CUMPLE
+jitter: 9.91945 ms
+  Objetivo <= 10 ms | CUMPLE (reserva trazabilidad)
+perdida: sin valor mensual valido
+  Objetivo <= 0.5 % | EVIDENCIA INSUFICIENTE
+throughput: 180.75000 Mbps
+  Objetivo >= 180 Mbps | CUMPLE
+respuesta: 66.00000 min
+  Objetivo <= 60 min | NO CUMPLE
+restauracion: 75.00000 min
+  Objetivo <= 240 min | CUMPLE
+Caida atribuible: 160.00 min
+Caida permitida: 43.20 min | Exceso: 116.80 min
+Cobertura ICMP: 98.90046 %
+Cobertura perdida: 60.00 % (insuficiente)
+Respuesta: 23, 33, 66, 7 min | Cumplen 3/4 (75 %)
+Credito: 15.00 % | Monto neto: $180000
+Serie: 99.73015098 % | 116.57478 min
+Con radio: 99.92901170 % | 30.66695 min
+Reserva: verificar origen y frecuencia de series TWAMP.

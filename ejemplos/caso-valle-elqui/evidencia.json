@@ -1,0 +1,64 @@
+{
+  "jitter_grupos": [
+    [
+      9870,
+      9.0
+    ],
+    [
+      10025,
+      10.5
+    ],
+    [
+      9900,
+      13.8
+    ],
+    [
+      12930,
+      7.2
+    ]
+  ],
+  "latencia_validas": 42725,
+  "latencia_esperadas": 43200,
+  "perdida_dias": 18,
+  "dias_mes": 30,
+  "jitter_frecuencia_supuesta_seg": 60,
+  "eventos": [
+    {
+      "id": "E1",
+      "minutos": 210,
+      "atribuible": false,
+      "clausula": "6.1a"
+    },
+    {
+      "id": "E2",
+      "minutos": 55,
+      "atribuible": true,
+      "clausula": "6.1b no acreditada"
+    },
+    {
+      "id": "E3",
+      "minutos": 105,
+      "atribuible": false,
+      "clausula": "6.1c y 7.2"
+    },
+    {
+      "id": "E4",
+      "minutos": 75,
+      "atribuible": true,
+      "clausula": "sin exclusion 6.1"
+    },
+    {
+      "id": "E5",
+      "minutos": 30,
+      "atribuible": true,
+      "clausula": "6.1a no satisfecha"
+    }
+  ],
+  "componentes": {
+    "cpe": 0.9995,
+    "fibra": 0.998,
+    "pe": 0.9999,
+    "backbone": 0.9999,
+    "radio": 0.995
+  }
+}

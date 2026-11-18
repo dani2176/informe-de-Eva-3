@@ -1,0 +1,82 @@
+{
+  "metricas": [
+    {
+      "metrica": "disponibilidad",
+      "objetivo": 99.9,
+      "operador": ">=",
+      "unidad": "%",
+      "medido": 99.62962962962963,
+      "veredicto": "NO CUMPLE",
+      "credito": 0.1
+    },
+    {
+      "metrica": "latencia",
+      "objetivo": 30,
+      "operador": "<=",
+      "unidad": "ms",
+      "medido": 27.4,
+      "veredicto": "CUMPLE",
+      "credito": 0
+    },
+    {
+      "metrica": "jitter",
+      "objetivo": 10,
+      "operador": "<=",
+      "unidad": "ms",
+      "medido": 9.919449970743125,
+      "veredicto": "CUMPLE (reserva trazabilidad)",
+      "credito": 0
+    },
+    {
+      "metrica": "perdida",
+      "objetivo": 0.5,
+      "operador": "<=",
+      "unidad": "%",
+      "medido": null,
+      "veredicto": "EVIDENCIA INSUFICIENTE",
+      "credito": 0
+    },
+    {
+      "metrica": "throughput",
+      "objetivo": 180,
+      "operador": ">=",
+      "unidad": "Mbps",
+      "medido": 180.75,
+      "veredicto": "CUMPLE",
+      "credito": 0
+    },
+    {
+      "metrica": "respuesta",
+      "objetivo": 60,
+      "operador": "<=",
+      "unidad": "min",
+      "medido": 66.0,
+      "veredicto": "NO CUMPLE",
+      "credito": 0.05
+    },
+    {
+      "metrica": "restauracion",
+      "objetivo": 240,
+      "operador": "<=",
+      "unidad": "min",
+      "medido": 75.0,
+      "veredicto": "CUMPLE",
+      "credito": 0
+    }
+  ],
+  "disponibilidad": 99.62962962962963,
+  "latencia": 27.4,
+  "jitter": 9.919449970743125,
+  "throughput": 180.75,
+  "respuesta": 66.0,
+  "restauracion": 75.0,
+  "credito": 0.15000000000000002,
+  "monto": 180000,
+  "caida": 160.0,
+  "serie": 0.9973015097750101,
+  "paralelo": 0.9992901169939001,
+  "serie_caida": 116.57477771956425,
+  "paralelo_caida": 30.666945863514172,
+  "cobertura_latencia": 98.90046296296296,
+  "cobertura_perdida": 60.0
+}

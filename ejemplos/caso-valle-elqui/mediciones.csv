@@ -1,0 +1,17 @@
+fecha,metrica,valor,unidad
+2026-09-09,caida_atribuible,55,min
+2026-09-21,caida_atribuible,75,min
+2026-09-27,caida_atribuible,30,min
+2026-09-30,latencia,27.4,ms
+2026-09-30,jitter,9.919449970743125,ms
+2026-09-05,throughput,186,Mbps
+2026-09-12,throughput,182,Mbps
+2026-09-19,throughput,171,Mbps
+2026-09-26,throughput,184,Mbps
+2026-09-09,respuesta,23,min
+2026-09-15,respuesta,33,min
+2026-09-21,respuesta,66,min
+2026-09-27,respuesta,7,min
+2026-09-09,restauracion,55,min
+2026-09-21,restauracion,75,min
+2026-09-27,restauracion,30,min
